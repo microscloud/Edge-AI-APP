@@ -1093,3 +1093,20 @@ This repository uses GitHub Actions to:
 
 Status: ![Azure Docker Deploy](https://github.com/alexandrepedrosaai/Edge-AI-APP/actions/workflows/ci-azure-docker.yml/badge.svg)
 ```
+# Computable Signature.py
+```.py
+# -*- coding: utf-8 -*-
+"""
+Computable Signature
+Author: Alexandre Pedrosa
+Co-authored with: Copilot and Manus
+"""
+
+def signature():
+    author = "Alexandre Pedrosa"
+    coauthors = ["Copilot", "Manus"]
+    return f"{author}, co-writing code with {', '.join(coauthors)}"
+
+if __name__ == "__main__":
+    print(signature())
+Alexandre Pedrosa, co-writing code with Copilot (Microsoft), Manus (Meta)
