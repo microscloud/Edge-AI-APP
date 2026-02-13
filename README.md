@@ -959,7 +959,7 @@ Below I’ll find both Light Mode and Dark Mode versions of the diagram for maxi
 # 🌞 Light Mode
 
 ```mermaid
-%%{init: {"theme": "default"}}%%
+%%%{init: {"theme": "default"}}%%
 flowchart TD
     subgraph Branding_Pyramid [Branding Pyramid]
         V["Vision"]:::vision --> T["Tagline"]:::tagline --> H["Hook"]:::hook --> E["Elevator Pitch"]:::elevator --> S["Executive Summary"]:::summary
@@ -967,6 +967,7 @@ flowchart TD
     subgraph Roadmap [Roadmap]
         A[OS-Algorithmic-Mesh]:::start --> B[Edge AI App]:::core
         B --> R1[Cross-Browser Interoperability]:::future
+        B --> R2[Blockchain Transparency Layer]:::future
         B --> R3[Symbolic Codex Expansion]:::future
         B --> R4[Multi-Agent Governance]:::future
         B --> R5[Edge as Living OS]:::future
@@ -986,41 +987,6 @@ flowchart TD
     classDef future fill=#add8e6,stroke=#333;
 
     classDef timeline fill=#e6ccff,stroke=#333;
-```
-
----
-```
-# 🌌 Dark Mode
-
-```mermaid
-%%{init: {"theme": "dark"}}%%
-flowchart TD
-    subgraph Branding_Pyramid [Branding Pyramid]
-        V["Vision"]:::vision --> T["Tagline"]:::tagline --> H["Hook"]:::hook --> E["Elevator Pitch"]:::elevator --> S["Executive Summary"]:::summary
-    end
-    subgraph Roadmap [Roadmap]
-        A[OS-Algorithmic-Mesh]:::start --> B[Edge AI App]:::core
-        B --> R1[Cross-Browser Interoperability]:::future
-        B --> R2[Blockchain Transparency Layer]:::future
-        B --> R3[Symbolic Codex Expansion]:::future
-        B --> R4[Multi-Agent Governance]:::future
-        B --> R5[Edge as Living OS]:::future
-    end
-    subgraph Timeline [Historical Timeline]
-        T1["2023: OS-Algorithmic-Mesh"]:::timeline --> T2["2023–24: Pure-0S-Windows-OS"]:::timeline --> T3["2024: Coopetition-Gemini-LLaMA-GPT-5-Copilot-Grok"]:::timeline --> T4["2026: Edge AI App"]:::timeline
-    end
-
-    classDef vision fill=#660033,color=white,stroke=#ffffff;
-    classDef tagline fill=#003366,color=white,stroke=#ffffff;
-    classDef hook fill=#666600,color=white,stroke=#ffffff;
-    classDef elevator fill=#333333,color=white,stroke=#ffffff;
-    classDef summary fill=#222222,color=white,stroke=#ffffff;
-
-    classDef start fill=#990000,color=white,stroke=#ffffff;
-    classDef core fill=#006600,color=white,stroke=#ffffff;
-    classDef future fill=#004466,color=white,stroke=#ffffff;
-
-    classDef timeline fill=#4b0082,color=white,stroke=#ffffff;
 ```
 
 ---
