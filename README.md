@@ -899,38 +899,6 @@ Here’s how you can show light‑mode and dark‑mode Mermaid diagrams side‑b
 Edge AI App – Unified Diagram (Light vs Dark)
 
 🌞 Light Mode
-`mermaid
-%%{init: {"theme": "default"}}%%
-flowchart TD
-    subgraph Branding_Pyramid [Branding Pyramid]
-        V["Vision"]:::vision --> T["Tagline"]:::tagline --> H["Hook"]:::hook --> E["Elevator Pitch"]:::elevator --> S["Executive Summary"]:::summary
-    end
-    subgraph Roadmap [Roadmap]
-        A[OS-Algorithmic-Mesh]:::start --> B[Edge AI App]:::core
-        B --> R1[Cross-Browser Interoperability]:::future
-        B --> R2[Blockchain Transparency Layer]:::future
-        B --> R3[Symbolic Codex Expansion]:::future
-        B --> R4[Multi-Agent Governance]:::future
-        B --> R5[Edge as Living OS]:::future
-    end
-    subgraph Timeline [Historical Timeline]
-        T1["2023: OS-Algorithmic-Mesh"]:::timeline --> T2["2023–24: Pure-0S-Windows-OS"]:::timeline --> T3["2024: Coopetition-Gemini-LLaMA-GPT-5-Copilot-Grok"]:::timeline --> T4["2026: Edge AI App"]:::timeline
-    end
-
-    classDef vision fill=#ffb3ba,stroke=#333;
-    classDef tagline fill=#bae1ff,stroke=#333;
-    classDef hook fill=#ffffba,stroke=#333;
-    classDef elevator fill=#d3d3d3,stroke=#333;
-    classDef summary fill=#f0f0f0,stroke=#333;
-
-    classDef start fill=#ff9999,stroke=#333;
-    classDef core fill=#90ee90,stroke=#333;
-    classDef future fill=#add8e6,stroke=#333;
-
-    classDef timeline fill=#e6ccff,stroke=#333;
-```
-
----
 
 # 🌌 Dark Mode
 ```mermaid
